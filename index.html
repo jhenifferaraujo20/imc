@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 009</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
+
+<body>
+    <main>
+        <h3>IMCDruga</h3>
+        <img src="images/Logo_druga.png" id="imagem" width="240">
+        <p>"Só não te dou outra porque...minha vózinha era bodybuilder."</p>
+        
+        <form>
+            <div>
+            Digite sua altura(m):
+            <input type="text" placeholder="Insira aqui sua altura" id="altura">
+            Digite seu peso(kg):
+            <input type="number" placeholder="Insira aqui seu peso" id="peso">
+            </div>
+
+            <div id="mensagem"></div>
+
+            <button type="button" onclick="CalculoIMC();">Calcular</button>
+        </form>
+    </main>
+
+    <script src="js/funcoes.js"></script>
+</body>
+
+</html>
