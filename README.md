@@ -1,4 +1,5 @@
 # Exercício 009
+
 Crie um programa que realize o cáculo do IMC, observe que o IMC é obtido fazendo o quociente (divisão) entre o peso da pessoa e o quadrado da altura.
 - possua duas caixas de textos para o usuário digitar o peso e a altura
 - um botão
@@ -6,3 +7,9 @@ Crie um programa que realize o cáculo do IMC, observe que o IMC é obtido fazen
 - Se IMC < 20 --> "Magro"
 - Se IMC >=25 --> "Sobrepeso"
 - senão --> "OK"
+
+## Tecnologias
+
+- HTML
+- CSS
+- Javascript
